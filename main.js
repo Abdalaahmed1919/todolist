@@ -76,5 +76,6 @@ function toggleStatusTaskWith (taskid) {
 }
 deletall.onclick = function () {
     divtasks.innerHTML = "";
+    arrayoftasks = [];
     localStorage.clear();
 }
